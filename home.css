@@ -1,0 +1,99 @@
+body{
+    margin: auto;
+}
+body{
+    background-clip: url(video/file_example_MP4_480_1_5MG.mp4);
+}
+/* Header style */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #333;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: inline;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar li {
+    float: left;
+    display: inline;
+}
+.navbar li a:hover {
+    background-color: #111;
+  }
+  
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+/* Footer style */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: block;
+    clear: both;
+    padding: 10px;
+}
+
+.flexbox_container{
+    margin: auto;
+    margin-top: 70px;
+    border: 5px solid;
+    border-radius: 10px;
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: self-start;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    row-gap: 10px;
+    padding: 10px;
+}
+.flexbox{
+    width: 100px;
+    height: 100px;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.icon{
+    text-align: left;
+    font-size: large;
+}
+.fa-solid.fa-house.fa-2x{
+    color: hsl(0, 0%, 0%);
+}
+.fa-brands.fa-youtube.fa-2x{
+    color: hsl(0, 100%, 50%);
+}
+.fa-brands.fa-facebook.fa-2x{
+    color: hsl(240, 100%, 50%);
+}
+.fa-solid.fa-house.fa-2x:hover{
+    color: hsl(0, 0%, 25%);
+}
+.fa-brands.fa-youtube.fa-2x:hover{
+    color: hsl(0, 100%, 70%);
+}
+.fa-brands.fa-facebook.fa-2x:hover{
+    color: hsl(240, 100%, 70%);
+}
